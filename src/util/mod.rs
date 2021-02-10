@@ -140,7 +140,6 @@ mod tests {
         assert_eq!(err, errors::UnknownCryptoError);
     }
 
-    #[cfg(feature = "safe_api")]
     #[test]
     fn test_ct_eq_ok() {
         let buf_1 = [0x06; 10];
